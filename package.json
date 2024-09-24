@@ -1,0 +1,17 @@
+{
+  "name": "mtfree-api",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4",
+    "typescript": "^4.5.5"
+  }
+}
